@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Luckiest+Guy&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+#nav{
+    font-family: 'Monteserrat',sans-serif;
+}
+header{
+    background-color: black;
+    color:white;
+    padding: 8px 0px 20px 30px;
+    height:62px;
+    
+   
+}
+.show{
+    margin-left:180px;
+}
+
+header h1{
+    
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-right:20px;
+    
+}
+ul{
+    display:inline;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:15px 20px;
+    border:1px solid white transparent;
+    float: left;
+}
+.active{
+    background-color:blue;
+    padding:15px;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    background-color: blue;
+    color:black;
+    transition:0.6s ease;
+}
+
+.divider{
+    background-color: blue;
+    height:10px;
+}
+.divider2{
+    float:left;
+    
+    
+}
+.img1{
+    height:300px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    clear: both;
+    display: table;
+  }
+.display{
+    background-image: url("good.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:500px;
+    height:100vh;
+}
+.display h1{
+    background-image: url("download.jpg");
+    background-size: cover;
+    margin-top:-400px;
+    margin-left: 900px;
+    border:1px solid #003366 ;
+    background-color: rgba(0,0,0,0.4);
+    padding:20px;
+}
+
+td h1{
+    color:blue;
+}
+td h2{
+    font-family: 'Lobster Two', cursive; 
+}
+tr{
+    padding:5px;
+    border:5px solid navy;
+}
