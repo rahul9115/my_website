@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Luckiest+Guy&display=swap');
+
+#nav{
+    font-family: 'Monteserrat',sans-serif;
+}
+header{
+    background-color: black;
+    color:white;
+    padding: 8px 0px 20px 30px;
+    height:71px;
+    
+   
+}
+.show{
+    margin-left:180px;
+}
+
+header h1{
+    
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-right:20px;
+    
+}
+ul{
+    display:inline;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:15px 20px;
+    border:1px solid white transparent;
+    float: left;
+}
+.active{
+    background-color:blue;
+    padding:15px;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    background-color: blue;
+    color:black;
+    transition:0.6s ease;
+}
+
+.divider{
+    background-color: blue;
+    height:10px;
+}
+.divider2{
+    float:left;
+    
+    
+}
+.img1{
+    height:300px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    clear: both;
+    display: table;
+  }
+
+td h1{
+    color:blue;
+
+}
+td h2{
+    font-family: 'Lobster Two', cursive; 
+}
+
+.show{
+    margin-left:400px;
+}
